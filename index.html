@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Branko Pualić-Radujko" />
+    <meta
+      name="keywords"
+      content="Sollai Fashion Dreams, home page, winter, collection, contact, clothes, best sellers"
+    />
+    <meta
+      name="description"
+      content="Home page of the Sollai Fashion Dreams website. Here you can find best style for you."
+    />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png" />
+
+    <script
+      src="https://kit.fontawesome.com/e93febcf72.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <title>Sollai Fashion Dreams</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <a href="index.html"
+          ><img src="assets/img/logo.png" alt="Picture of the horse head."
+        /></a>
+        <h1>SOLLAI</h1>
+      </div>
+      <div id="menu">
+        <nav>
+          <ul>
+            <!-- JavaScript -->
+          </ul>
+        </nav>
+      </div>
+      <div id="acc">
+        <a href="cart.html">Cart</a>
+      </div>
+      <div id="ham">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <main>
+      <div class="succBuy">
+        <p>Successfully added to cart.</p>
+      </div>
+      <section id="cover">
+        <div id="slider">
+          <div id="coverImages">
+            <div class="slides">
+              <img
+                src="assets/img/hoodieCover.png"
+                alt="Picture of the orange hoodie."
+              />
+            </div>
+            <div class="slides hidden">
+              <img
+                src="assets/img/dressCover.png"
+                alt="Picture of the red dress."
+              />
+            </div>
+            <div class="slides hidden">
+              <img
+                src="assets/img/tShirtCover.png"
+                alt="Picture of the black t-shirt."
+              />
+            </div>
+          </div>
+          <div id="coverButtons">
+            <div class="coverSliderButtons" data-slide="1"></div>
+            <div class="coverSliderButtons" data-slide="2"></div>
+            <div class="coverSliderButtons" data-slide="3"></div>
+          </div>
+        </div>
+        <div id="coverText">
+          <h1>Discover Your Next Favorite Outfit</h1>
+          <p>
+            Step into the world of fashion with our carefully curated collection
+            of clothing. Our pieces are hand-selected with your unique style in
+            mind and offer a range of options to fit your budget. From casual
+            everyday wear to statement pieces for special occasions, we've got
+            you covered. Browse now and discover the perfect outfit for your
+            next adventure.
+          </p>
+          <a href="shop.html">SHOP NOW</a>
+        </div>
+      </section>
+      <section id="currentCollection">
+        <img
+          src="assets/img/winterCoverM.jpg"
+          alt="Picture of the hanged winter clothes."
+        />
+        <div id="currentCollectionText">
+          <h2>Stay Cozy in Style</h2>
+          <p>
+            Beat the winter chill with our exclusive collection of warm and
+            stylish winterwear. From chunky knit sweaters to cozy coats, we've
+            got everything you need to keep you looking great and feeling
+            comfortable during the colder months. Shop now and upgrade your
+            winter wardrobe today.
+          </p>
+          <a href="winter.html">WINTER COLLECTION</a>
+        </div>
+      </section>
+      <section class="allProducts">
+        <h3 class="productsHeader">Our Best Sellers</h3>
+        <div id="productsHomePage">
+          <!-- JavaScript -->
+        </div>
+      </section>
+      <section id="contact">
+        <div id="contactText">
+          <h3>Get in Touch</h3>
+          <p>
+            We're here to help you with any questions or concerns. <br />
+            Reach out to us through our contact form or send an email to
+            <span class="bold">sollaifashion&commat;gmail.com</span>, or give us
+            a call at <span class="bold">+445 5945 549</span>. <br />
+            Our customer service team will get back to you as soon as possible.
+          </p>
+        </div>
+        <div id="contactForm">
+          <form action="contact.php" method="post">
+            <div id="info">
+              <div>
+                <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  placeholder="FIRST NAME *"
+                />
+                <p class="danger" id="firstNameRe">
+                  Incorect value. Exemple: Branko
+                </p>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  id="lastName"
+                  name="lastName"
+                  placeholder="LAST NAME *"
+                />
+                <p class="danger" id="lastNameRe">
+                  Incorect value. Exemple: Pualić
+                </p>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  id="country"
+                  name="country"
+                  placeholder="COUNTRY *"
+                />
+                <p class="danger" id="countryRe">
+                  Incorect value. Exemple: Serbia
+                </p>
+              </div>
+              <div>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="EMAIL ADDRESS *"
+                />
+                <p class="danger" id="mailRe">
+                  Incorect value. Exemple: exemple@gmail.com
+                </p>
+              </div>
+            </div>
+
+            <div id="genderSelection">
+              <div id="radioBtns">
+                <label for="male">MALE</label>
+                <input type="radio" name="gender" id="male" />
+                <label for="female">FEMALE</label>
+                <input type="radio" name="gender" id="female" />
+              </div>
+              <p class="danger" id="genderRe">One button must be checked.</p>
+            </div>
+            <div id="subjectSelection">
+              <select name="subject" id="subject"></select>
+              <p class="danger" id="subjectRe">You must pick subject.</p>
+            </div>
+            <div>
+              <textarea
+                name="txtArea"
+                id="txtArea"
+                cols="30"
+                rows="10"
+                placeholder="WRITE US A MESSAGE *"
+              ></textarea>
+              <p id="counter"><span id="textCount">0</span> of 400</p>
+              <p class="danger" id="txtAreaRe">Message can't be empty.</p>
+            </div>
+            <div>
+              <input
+                type="button"
+                name="submitForm"
+                id="submitForm"
+                value="Send Message"
+              />
+              <span id="messageSent">Successfully sent.</span>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="firstPart">
+        <div id="emailSubscription">
+          <p>
+            Be the first to know about new arrivals! <br />
+            Sign up for our newsletter to stay up-to-date.
+          </p>
+          <h4>Subscribe today.</h4>
+          <form action="subsription.php" method="post">
+            <input
+              type="email"
+              name="subsEmail"
+              id="subsEmail"
+              placeholder="Your Email"
+            />
+            <i class="fa-regular fa-paper-plane" id="footerSub"></i>
+          </form>
+          <p class="danger" id="mailFooter">
+            Incorect value. Exemple: exemple@gmail.com
+          </p>
+          <p id="emailFooterSuccess">Successfully sent.</p>
+        </div>
+        <div id="footerLogo">
+          <img
+            src="assets/img/logoWhite.png"
+            alt="Logo picture of the horse head."
+          />
+        </div>
+      </div>
+      <div id="secondPart">
+        <div id="footerHome">
+          <h4><a href="index.html">SOLLAI</a></h4>
+          <p>
+            Shop with confidence. Make the right decision <br />
+            with our quality products and excellent customer service.
+          </p>
+        </div>
+        <div id="quickLinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div id="myLinks">
+          <ul>
+            <li><a href="author.html">Author</a></li>
+            <li><a href="assets/xml/sitemap.xml">Sitemap</a></li>
+            <li><a href="documentation.pdf">Dokumentacija</a></li>
+          </ul>
+        </div>
+        <div id="socials">
+          <h4>Follow us</h4>
+          <a href="https://www.instagram.com/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a href="https://www.youtube.com/"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+      <div id="copyright">
+        <p>
+          Copyright &copy; 2023 <span class="bold">Sollai</span>. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <a href="#" class="back-to-top">
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

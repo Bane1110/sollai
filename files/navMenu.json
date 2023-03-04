@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "text": "Winter Collection",
+    "href": "winter.html"
+  },
+  {
+    "id": 2,
+    "text": "Home",
+    "href": "index.html"
+  },
+  {
+    "id": 3,
+    "text": "Shop",
+    "href": "shop.html"
+  },
+  {
+    "id": 4,
+    "text": "Contact",
+    "href": "index.html#contact"
+  },
+  {
+    "id": 5,
+    "text": "Author",
+    "href": "author.html"
+  }
+]

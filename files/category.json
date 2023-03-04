@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Sport"
+  },
+  {
+    "id": 2,
+    "name": "Winter"
+  },
+  {
+    "id": 3,
+    "name": "Summer"
+  },
+  {
+    "id": 4,
+    "name": "Male"
+  },
+  {
+    "id": 5,
+    "name": "Female"
+  },
+  {
+    "id": 6,
+    "name": "T-shirt"
+  },
+  {
+    "id": 7,
+    "name": "Jacket"
+  },
+  {
+    "id": 8,
+    "name": "Set"
+  },
+  {
+    "id": 9,
+    "name": "Coat"
+  },
+  {
+    "id": 10,
+    "name": "Pants"
+  },
+  {
+    "id": 11,
+    "name": "Hoodie"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "White Zara T-shirt",
+    "desc": "Woman white T-shirt made from 100% cotton. Size M.",
+    "image": "assets/img/girl1.jpg",
+    "price": {
+      "online": "30.99",
+      "store": "24.99"
+    },
+    "collection": false,
+    "category": [3, 5, 6],
+    "brand": 1,
+    "bestSeller": true
+  },
+  {
+    "id": 2,
+    "name": "Darkgray Winter Jacket",
+    "desc": "From H&M this jacket is going to keep you warm during cold winters.",
+    "image": "assets/img/winter3.jpg",
+    "price": {
+      "online": "69.99",
+      "store": "64.99"
+    },
+    "collection": true,
+    "category": [2, 4, 7],
+    "brand": 2,
+    "bestSeller": true
+  },
+  {
+    "id": 3,
+    "name": "Casual White T-shirt",
+    "desc": "Casual white T-shirt for man made from finest materials 100% cotton.",
+    "image": "assets/img/man1.jpg",
+    "price": {
+      "online": "24.99",
+      "store": "20.99"
+    },
+    "collection": false,
+    "category": [3, 4, 6],
+    "brand": 1,
+    "bestSeller": true
+  },
+  {
+    "id": 4,
+    "name": "Tracksuit set",
+    "desc": "Yellow Tracksuit set from adidas. Size M, made for every woman.",
+    "image": "assets/img/girl2.jpg",
+    "price": {
+      "online": "132.99",
+      "store": "126.99"
+    },
+    "collection": false,
+    "category": [3, 5, 8],
+    "brand": 3,
+    "bestSeller": true
+  },
+  {
+    "id": 5,
+    "name": "Black Coat",
+    "desc": "For elegant women, black coat made from Down, synthetic materials, and wool.",
+    "image": "assets/img/winter1.jpg",
+    "price": {
+      "online": "110.99",
+      "store": "95.99"
+    },
+    "collection": true,
+    "category": [2, 5, 9],
+    "brand": 2,
+    "bestSeller": true
+  },
+  {
+    "id": 6,
+    "name": "Brown Jacket",
+    "desc": "Excellent winter jacket choice. For all those who want style. Size L.",
+    "image": "assets/img/winter2.jpg",
+    "price": {
+      "online": "76.99",
+      "store": "70.99"
+    },
+    "collection": true,
+    "category": [2, 4, 7],
+    "brand": 2,
+    "bestSeller": true
+  },
+  {
+    "id": 7,
+    "name": "Puffy Snow White Coat",
+    "desc": "Puffy as it can gets, best comfort with the best style for women.",
+    "image": "assets/img/winter4.jpg",
+    "price": {
+      "online": "175.99",
+      "store": "150.99"
+    },
+    "collection": true,
+    "category": [2, 5, 9],
+    "brand": 1,
+    "bestSeller": true
+  },
+  {
+    "id": 8,
+    "name": "Pink Pants",
+    "desc": "For all occasion pink pants made from 90% cotton and 10% synthetic. Size S.",
+    "image": "assets/img/girl3.jpg",
+    "price": {
+      "online": "34.99",
+      "store": "30.99"
+    },
+    "collection": false,
+    "category": [2, 3, 5, 10],
+    "brand": 3,
+    "bestSeller": true
+  },
+  {
+    "id": 9,
+    "name": "Gray Hoodie",
+    "desc": "Womens favorite gray oversized hoodie. 80% cotton, 20% wool. Size L.",
+    "image": "assets/img/girl4.jpg",
+    "price": {
+      "online": "49.99",
+      "store": "43.99"
+    },
+    "collection": false,
+    "category": [2, 5, 11],
+    "brand": 1,
+    "bestSeller": true
+  },
+  {
+    "id": 10,
+    "name": "Lightgray Jacket",
+    "desc": "Men snow white jacket for coldest winters, from adidas. Size L.",
+    "image": "assets/img/winter5.jpg",
+    "price": {
+      "online": "89.99",
+      "store": "80.99"
+    },
+    "collection": true,
+    "category": [2, 4, 7],
+    "brand": 3,
+    "bestSeller": true
+  },
+  {
+    "id": 11,
+    "name": "Beige Coat",
+    "desc": "Women love them. They bring style and elegance. Size M.",
+    "image": "assets/img/winter6.jpg",
+    "price": {
+      "online": "79.99",
+      "store": "74.99"
+    },
+    "collection": true,
+    "category": [2, 5, 9],
+    "brand": 2,
+    "bestSeller": false
+  },
+  {
+    "id": 12,
+    "name": "Black and White Stripes Men Coat",
+    "desc": "For Men with style and tradition. 60% cotton, 30% wool, 10% synthetic. Size M.",
+    "image": "assets/img/winter7.jpg",
+    "price": {
+      "online": "65.99",
+      "store": "60.99"
+    },
+    "collection": true,
+    "category": [2, 4, 9],
+    "brand": 3,
+    "bestSeller": false
+  },
+  {
+    "id": 13,
+    "name": "Male Blue Jeans",
+    "desc": "Male jeans for everyday going. Recomended by all. Size L.",
+    "image": "assets/img/manJeans.jpg",
+    "price": {
+      "online": "24.99",
+      "store": "20.99"
+    },
+    "collection": false,
+    "category": [3, 4, 10],
+    "brand": 2,
+    "bestSeller": false
+  },
+  {
+    "id": 14,
+    "name": "Women's very soft coat.",
+    "desc": "Blue soft coat made from cotton, synthetic and wool materials. Size L.",
+    "image": "assets/img/winter8.jpg",
+    "price": {
+      "online": "111.99",
+      "store": "105.99"
+    },
+    "collection": true,
+    "category": [2, 5, 9],
+    "brand": 1,
+    "bestSeller": false
+  },
+  {
+    "id": 15,
+    "name": "Top and Leggins",
+    "desc": "Pink top and leggins set for the gym. Size S.",
+    "image": "assets/img/sportset1.jpg",
+    "price": {
+      "online": "69.99",
+      "store": "64.99"
+    },
+    "collection": false,
+    "category": [1, 5, 8],
+    "brand": 3,
+    "bestSeller": false
+  },
+  {
+    "id": 16,
+    "name": "Blue Jeans",
+    "desc": "Blue jeans for women. Walk with style. Size S.",
+    "image": "assets/img/womanJeans.jpg",
+    "price": {
+      "online": "23.99",
+      "store": "20.99"
+    },
+    "collection": false,
+    "category": [3, 5, 10],
+    "brand": 2,
+    "bestSeller": false
+  },
+  {
+    "id": 17,
+    "name": "Women's Beige Jacket",
+    "desc": "Beige jacket made from cotton and synthetic materials. Size M.",
+    "image": "assets/img/winter9.jpg",
+    "price": {
+      "online": "90.99",
+      "store": "85.99"
+    },
+    "collection": true,
+    "category": [2, 5, 7],
+    "brand": 2,
+    "bestSeller": false
+  },
+  {
+    "id": 18,
+    "name": "Tracksuit set for Running and everyday walking",
+    "desc": "Excellent choice for women that loves sport style. Size M.",
+    "image": "assets/img/sportset2.jpg",
+    "price": {
+      "online": "74.99",
+      "store": "70.99"
+    },
+    "collection": false,
+    "category": [1, 5, 8],
+    "brand": 3,
+    "bestSeller": false
+  },
+  {
+    "id": 19,
+    "name": "Brown Winter Coat",
+    "desc": "Winter coat for women. Size L.",
+    "image": "assets/img/winter10.jpg",
+    "price": {
+      "online": "130.99",
+      "store": "125.99"
+    },
+    "collection": true,
+    "category": [2, 5, 9],
+    "brand": 2,
+    "bestSeller": false
+  },
+  {
+    "id": 20,
+    "name": "Man Tracksuit set",
+    "desc": "Beige tracksuit set for men, made from 100% cotton. Size M.",
+    "image": "assets/img/set1.jpg",
+    "price": {
+      "online": "65.99",
+      "store": "60.99"
+    },
+    "collection": false,
+    "category": [1, 4, 8],
+    "brand": 3,
+    "bestSeller": false
+  }
+]

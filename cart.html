@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Branko Pualić-Radujko" />
+    <meta
+      name="keywords"
+      content="Sollai Fashion Dreams, clothes, cart, free shipping"
+    />
+    <meta
+      name="description"
+      content="Cart page of the Sollai Fashion Dreams website. Check out your selected products."
+    />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png" />
+
+    <script
+      src="https://kit.fontawesome.com/e93febcf72.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <title>Sollai Fashion Dreams | Cart</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <a href="index.html"
+          ><img src="assets/img/logo.png" alt="Picture of the horse head."
+        /></a>
+        <h1>SOLLAI</h1>
+      </div>
+      <div id="menu">
+        <nav>
+          <ul>
+            <!-- JavaScript -->
+          </ul>
+        </nav>
+      </div>
+      <div id="acc">
+        <a href="cart.html">Cart</a>
+      </div>
+      <div id="ham">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <main>
+      <section id="cartPage">
+        <h1>Your Cart (<span class="cartItems">0</span>)</h1>
+        <div id="cartItemWrapper">
+          <div id="cartHeadings">
+            <p>Item</p>
+            <p>Description</p>
+            <p>Price</p>
+            <p>Quantity</p>
+            <p>Total</p>
+          </div>
+          <div id="cartItemWrapperIn">
+            <!-- JavaScript -->
+          </div>
+          <p>Your cart is empty.</p>
+          <div id="checkOut">
+            <div id="total">
+              <p><span id="totaltotal">0</span> $</p>
+            </div>
+            <div id="shipping">
+              <p>Free Shipping</p>
+              <i class="fa-solid fa-truck-fast"></i>
+            </div>
+            <div id="check">
+              <p>Check Out</p>
+            </div>
+            <p id="succPurchase">
+              Successfull purchase! Thank you for your time.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="firstPart">
+        <div id="emailSubscription">
+          <p>
+            Be the first to know about new arrivals! <br />
+            Sign up for our newsletter to stay up-to-date.
+          </p>
+          <h4>Subscribe today.</h4>
+          <form action="subsription.php" method="post">
+            <input
+              type="email"
+              name="subsEmail"
+              id="subsEmail"
+              placeholder="Your Email"
+            />
+            <i class="fa-regular fa-paper-plane" id="footerSub"></i>
+          </form>
+          <p class="danger" id="mailFooter">
+            Incorect value. Exemple: exemple@gmail.com
+          </p>
+          <p id="emailFooterSuccess">Successfully sent.</p>
+        </div>
+        <div id="footerLogo">
+          <img
+            src="assets/img/logoWhite.png"
+            alt="Logo picture of the horse head."
+          />
+        </div>
+      </div>
+      <div id="secondPart">
+        <div id="footerHome">
+          <h4><a href="index.html">SOLLAI</a></h4>
+          <p>
+            Shop with confidence. Make the right decision <br />
+            with our quality products and excellent customer service.
+          </p>
+        </div>
+        <div id="quickLinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div id="myLinks">
+          <ul>
+            <li><a href="author.html">Author</a></li>
+            <li><a href="assets/xml/sitemap.xml">Sitemap</a></li>
+            <li><a href="documentation.pdf">Dokumentacija</a></li>
+          </ul>
+        </div>
+        <div id="socials">
+          <h4>Follow us</h4>
+          <a href="https://www.instagram.com/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a href="https://www.youtube.com/"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+      <div id="copyright">
+        <p>
+          Copyright &copy; 2023 <span class="bold">Sollai</span>. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <a href="#" class="back-to-top">
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
