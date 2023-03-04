@@ -541,6 +541,10 @@
     right: -44.9px;
   }
   /* Home page cover with slider*/
+  #coverText h1 {
+    margin-bottom: 0;
+    margin-top: 5rem;
+  }
   #coverText,
   #currentCollectionText {
     width: 100%;
@@ -548,7 +552,7 @@
   }
   #coverText h1,
   #currentCollectionText h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   #coverText a,
   #coverText p,
