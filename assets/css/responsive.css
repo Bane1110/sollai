@@ -216,6 +216,10 @@
   #cartItemWrapper .cartItem .cartItemTotal {
     padding-left: 2rem;
   }
+  /* Home page collection section */
+  #currentCollection {
+    height: 100vh;
+  }
 }
 @media (max-width: 1090px) {
   /* Shop */

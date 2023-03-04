@@ -356,7 +356,7 @@ function scrollToTop() {
 // Creation of the products
 
 function createProducts(array, section) {
-  if (url == `/shop.html`) {
+  if (url == `/sollai/shop.html`) {
     array = filterBrands(array);
     array = filterCategories(array);
     array = filterByPrice(array);
